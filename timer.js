@@ -19,3 +19,17 @@ function stopShowing() {
    clearInterval( PassageID );   // タイマーのクリア
    document.getElementById("startcount").disabled = false;   // 開始ボタンの有効化
 }
+
+let button1 = document.getElementById('xxx');
+button.addEventListener('click', function(){
+    console.log('Hello');
+    console.log('最初の例');
+});
+
+
+let button2 = document.getElementById('xxx');
+button.addEventListener('click', function(){
+    console.log('Hello');
+    console.log('最初の例');
+});
+
