@@ -17,7 +17,7 @@ function startShowing() {
 // 繰り返し処理の中止
 function stopShowing() {
    clearInterval( PassageID );   // タイマーのクリア
-   document.getElementById("startcount").disabled = false;   // 開始ボタンの有効化
+   document.getElementById("count").disabled = false;   // 開始ボタンの有効化
 }
 
 let button1 = document.getElementById('startcount');
