@@ -21,9 +21,9 @@ function stopShowing() {
 }
 
 let button1 = document.getElementById('startcount');
-button.addEventListener('click', startShowing);
+button1.addEventListener('click', startShowing);
 
 
 let button2 = document.getElementById('stopcount');
-button.addEventListener('click', stopShowing);
+button2.addEventListener('click', stopShowing);
 
